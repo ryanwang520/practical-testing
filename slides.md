@@ -180,7 +180,7 @@ Ensure the behavior is just what you expect.
 
   - mocks(same api, only check if function or method is called as expected)
   - stubs(fixed result)
-  - fake(mimic actual behavior)
+  - fake(mimic actual behavior, think of using inmemory database for testing)
 
 ---
 
