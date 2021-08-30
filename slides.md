@@ -176,6 +176,10 @@ Ensure the behavior is just what you expect.
 
 - Fixtures
 
+  - avoid global state as much as possible
+  - fixtures for each test case should be isolated
+  - fixtures should not rely on implementation details
+
 - Test double
 
   - mocks(same api, only check if function or method is called as expected)
@@ -198,7 +202,14 @@ Ensure the behavior is just what you expect.
 
 - Tests result should be consistant, no surprising result each time
 - Tests should be understandable
-- Tests shouldni't depend on the execution order
+- Tests shouldn't depend on the execution order
 - Tests should be easy to maintain
-- Tests should be automated
 - Tests should be quickly to run
+
+<br>
+<div class="text-center">
+<h2>Be practical!</h2>
+</div>
+
+<p>You don't have to write tests for every single piece of code.</P>
+<p>You write tests because you want to ship your code more confidently.</p>
