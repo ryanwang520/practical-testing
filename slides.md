@@ -21,12 +21,16 @@ info: |
 <br>
 <br>
 
-## Why writing test?
+## Why bother writing tests?
 
 - Ship new features confidently
 - Detect regression when features change
 - Refactor code without fear
-- Thinking in test helps you write better code. Code is easy to test means that it's likely easy to be understood
+- Thinking in tests helps you write better code. Code is easy to test means that it's likely easy to be understood
+
+Last but most important:
+
+We don't want to ship bugs to production, which make our product lose users, lose money, and lose our reputation.
 
 <style>
 
@@ -47,12 +51,12 @@ h1 {
 
 <br>
 
-The classic test pyramid
+The Testing Trophy!
 
 <br>
 <br>
 
-<img src="https://automationpanda.files.wordpress.com/2017/10/the-testing-pyramid.png" width="300">
+<img src="https://pbs.twimg.com/media/DVUoM94VQAAzuws?format=jpg&name=900x900" width="300">
 
 ---
 
@@ -129,24 +133,29 @@ It's often better to use some other GUI tools like [Postman](https://www.getpost
 
 ---
 
-<div class="text-center mt-24">
-<h1>But that's not the whole story.</h1>
-</div>
-
----
+# Static analysis tools.
 
 <br>
-<br>
-
-## Introducing static analysis tools.
-
-<br>
-
-- Code Formatter
 
 - Code Linter
 
+  ```python
+  def f(a: int, b: int) -> int:
+     return a + b
+  # C0103: Function name "f" doesn't conform to snake_case naming style (invalid-name)
+  # C0103: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+  # C0103: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+  # C0116: Missing function or method docstring (missing-function-docstring)
+  ```
+
 - Type Check
+
+  ```python
+  def f(a: int, b: int) -> int:
+    return a + b
+
+  f(1, 'str')   # Argument 2 to "f" has incompatible type "str"; expected "int"
+  ```
 
 - Security Check
 
@@ -205,11 +214,14 @@ Ensure the behavior is just what you expect.
 - Tests shouldn't depend on the execution order
 - Tests should be easy to maintain
 - Tests should be quickly to run
+- 100% test coverage is a lie.
+- Whenever a bug is reported, write some tests to reappear it.
 
 <br>
 <div class="text-center">
 <h2>Be practical!</h2>
 </div>
 
-<p>You don't have to write tests for every single piece of code.</P>
+<p>Don't test too much! You don't have to write tests for every single piece of code.</P>
+
 <p>You write tests because you want to ship your code more confidently.</p>
