@@ -146,9 +146,11 @@ It's often better to use some other GUI tools like [Postman](https://www.getpost
 
 - Code linter
 
-- Type Checker
+- Type Check
 
 - Security Check
+
+- Complexity check
 
 ---
 
