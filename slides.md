@@ -110,7 +110,7 @@ def test_signup():
 
 <br>
 
-End2end Tets These test typical journeythrough a whole soft- ware system from start to finish.
+End2end Tets These test typical journeythrough a whole software system from start to finish.
 
 ```python
 def test_make_order_flow():
