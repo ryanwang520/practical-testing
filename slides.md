@@ -125,7 +125,7 @@ def test_make_order_flow():
   client.get('/order/<order_id>')
 ```
 
-It's often better to use some other GUI tools like [Postman](https://www.getpostman.com/) and [Apifox](https://www.apifox.cn/) to create test suites.
+It's often better to use some other GUI tools like [Postman](https://www.getpostman.com/) or [Apifox](https://www.apifox.cn/) to create test suites.
 
 ---
 
@@ -144,13 +144,13 @@ It's often better to use some other GUI tools like [Postman](https://www.getpost
 
 - Code Formatter
 
-- Code linter
+- Code Linter
 
 - Type Check
 
 - Security Check
 
-- Complexity check
+- Complexity Check
 
 ---
 
