@@ -142,13 +142,13 @@ It's often better to use some other GUI tools like [Postman](https://www.getpost
 
 <br>
 
-- Code Formatter.
+- Code Formatter
 
-- Code linter.
+- Code linter
 
-- Type Checker.
+- Type Checker
 
-- Security Check.
+- Security Check
 
 ---
 
@@ -193,11 +193,10 @@ Ensure the behavior is just what you expect.
 # Final Thoughts
 
 <br>
-<br>
 
-tests result should be consistant, no surprising result each time.
-tests should be understandable
-tests shouldni't depend on the execution order.
-tests should be easy to maintain
-tests should be automated
-tests should be quickly to run
+- Tests result should be consistant, no surprising result each time
+- Tests should be understandable
+- Tests shouldni't depend on the execution order
+- Tests should be easy to maintain
+- Tests should be automated
+- Tests should be quickly to run
