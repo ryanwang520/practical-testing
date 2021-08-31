@@ -16,12 +16,18 @@ info: |
   Learn more at [Sli.dev](https://sli.dev)
 ---
 
-# Practical Testing
+
+
+<h1 class="text-center">Practical Testing</h1>
 
 <br>
 <br>
+
+<v-click>
 
 ## Why bother writing tests?
+
+</v-click>
 
 <v-click>
 
