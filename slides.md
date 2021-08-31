@@ -243,13 +243,13 @@ Ensure the behavior is just what you expect.
 
 <br>
 
-- Tests result should be consistant, no surprising result each time
-- Tests should be understandable
+- Tests result should be *consistant*, no surprising result each time
+- Tests should be *understandable*
 - Tests shouldn't depend on the execution order
 - Tests should be easy to maintain
 - Tests should be quickly to run
-- 100% test coverage is a lie.
-- Whenever a bug is reported, write some tests to reappear it.
+- <span class="text-red-500">100%</span> test coverage is a lie.
+- Whenever a bug is reported, write some tests to *reappear* it.
 
 ---
 
