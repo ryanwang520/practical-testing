@@ -23,6 +23,8 @@ info: |
 
 ## Why bother writing tests?
 
+<v-click>
+
 - Ship new features confidently
 - Detect regression when features change
 - Refactor code without fear
@@ -31,6 +33,9 @@ info: |
 Last but most important:
 
 We don't want to ship bugs to production, which make our product lose users, lose money, and lose our reputation.
+
+</v-click>
+
 
 <style>
 
@@ -51,6 +56,8 @@ The Testing Pyramid?
 
 ::right::
 
+<v-click>
+
 The Testing Trophy!
 
 <br>
@@ -58,7 +65,9 @@ The Testing Trophy!
 
 <img src="https://pbs.twimg.com/media/DVUoM94VQAAzuws?format=jpg&name=900x900" width="300">
 
+</v-click>
 ---
+
 
 # Unit Tests
 
@@ -237,10 +246,11 @@ Ensure the behavior is just what you expect.
 - 100% test coverage is a lie.
 - Whenever a bug is reported, write some tests to reappear it.
 
+---
+
+<h1 class="">Be practical!</h1>
+
 <br>
-<div class="text-center">
-<h2 class="text-blue-500">Be practical!</h2>
-</div>
 
 <p> <span class="text-red-400">Don't be obessed by the concepts,</span> no one cares whether it's a unit test or integration test as long as it's a good test.</p>
 
