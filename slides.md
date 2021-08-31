@@ -238,10 +238,11 @@ Ensure the behavior is just what you expect.
 
 <br>
 <div class="text-center">
-<br>
 <h2 class="text-blue-500">Be practical!</h2>
 </div>
 
+<p> <span class="text-red-400">Don't be obessed by the concepts,</span> no one cares whether it's a unit test or integration test as long as it's a good test.</p>
+
 <p><span class="text-red-400">Don't test too much!</span> You don't have to write tests for every single piece of code.</P>
 
-<p>You write tests because you want to ship your code more confidently.</p>
+<p>You write tests because you want to <span class="text-red-400">ship your code more confidently.</span></p>
