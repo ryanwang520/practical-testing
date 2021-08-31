@@ -79,8 +79,12 @@ Focus on some distinct units of code in a relatively isolated manner.
 
 ```python
 def fib(n):
-  return 1 if n <= 1 else fib(n - 1) + fib(n - 2)
+  return 1 if n <= 1 else fib(n - 1) + fib(n - 2) # autocomplted by github copilot
+```
 
+<v-click>
+
+```python
 def test_fib():
   assert fib(0) == 0
   assert fib(1) == 1
@@ -92,6 +96,7 @@ def test_fib():
   assert_fib_not_accept_negative_numbers()
 
 ```
+</v-click>
 
 ---
 
