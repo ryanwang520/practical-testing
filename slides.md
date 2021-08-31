@@ -38,10 +38,18 @@ We don't want to ship bugs to production, which make our product lose users, los
 </style>
 
 ---
+layout: two-cols
+---
 
 # What to Test
 
 <br>
+
+The Testing Pyramid?
+
+<img src="https://martinfowler.com/bliki/images/testPyramid/test-pyramid.png" width="300">
+
+::right::
 
 The Testing Trophy!
 
@@ -124,6 +132,8 @@ def test_make_order_flow():
 It's often better to use some other GUI tools like [Postman](https://www.getpostman.com/) or [Apifox](https://www.apifox.cn/) to create test suites.
 
 ---
+layout: two-cols
+---
 
 # Static analysis tools.
 
@@ -149,9 +159,26 @@ It's often better to use some other GUI tools like [Postman](https://www.getpost
   f(1, 'str')   # Argument 2 to "f" has incompatible type "str"; expected "int"
   ```
 
+::right::
+
+<div class="mt-22 ml-10">
+
 - Security Check
 
+  ```python
+  password = '123456'
+  """
+  Issue: [B105:hardcoded_password_string] Possible hardcoded password: '123'
+   Severity: Low   Confidence: Medium
+   More Info: https://bandit.readthedocs.io/en/latest/plugins/b105_hardcoded_password_string.html
+  """
+  ```
+
 - Complexity Check
+
+  <img src="https://wily.readthedocs.io/en/latest/_images/wily_report.png" class="object-cover h-38" style="object-position: top left;" width="400">
+
+</div>
 
 ---
 
@@ -193,7 +220,7 @@ Ensure the behavior is just what you expect.
 
 - commit-hook
 - ci
-- before release
+- whenever
 
 ---
 
@@ -211,9 +238,10 @@ Ensure the behavior is just what you expect.
 
 <br>
 <div class="text-center">
-<h2>Be practical!</h2>
+<br>
+<h2 class="text-blue-500">Be practical!</h2>
 </div>
 
-<p>Don't test too much! You don't have to write tests for every single piece of code.</P>
+<p><span class="text-red-400">Don't test too much!</span> You don't have to write tests for every single piece of code.</P>
 
 <p>You write tests because you want to ship your code more confidently.</p>
