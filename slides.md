@@ -262,3 +262,13 @@ Ensure the behavior is just what you expect.
 <p><span class="text-red-400">Don't test too much!</span> You don't have to write tests for every single piece of code.</P>
 
 <p>You write tests because you want to <span class="text-red-400">ship your code more confidently.</span></p>
+
+
+---
+
+References:
+
+- [https://martinfowler.com/articles/2021-test-shapes.html]()
+
+- [https://www.destroyallsoftware.com/screencasts/catalog/functional-core-imperative-shell]()
+
